@@ -1,9 +1,10 @@
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-tarjeta',
-  templateUrl: './tarjeta.component.html',
-  styleUrls: ['./tarjeta.component.css']
+    selector: 'app-tarjeta',
+    templateUrl: './tarjeta.component.html',
+    styleUrls: ['./tarjeta.component.css'],
+    standalone: false
 })
 export class TarjetaComponent implements OnInit {
 
