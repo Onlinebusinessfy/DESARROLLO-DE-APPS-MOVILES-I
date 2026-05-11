@@ -1,4 +1,7 @@
-<h3 class="mt-5">Formulario de MiHola</h3>
+<h3 class="mt-5" placeholder="Ingresa el nombre" [(ngModel)]="setNombre">Formulario de MiHola</h3>
 <label class="form-label">Ingresa un Nombre:</label>
-<input type="text" class="form-control">
-<button class="btn btn-primary mt-3">Aceptar</button>
+<input type="text" class="form-control" [(ngModel)]="setNombre">
+<button class="btn btn-primary mt-3" (click)="evaluar()" class="etiqueta">Aceptar</button>
+<div class="mt-3">
+  <label class="etiqueta">El nombre ingresado es: {{setNombre}}</label>
+</div>
