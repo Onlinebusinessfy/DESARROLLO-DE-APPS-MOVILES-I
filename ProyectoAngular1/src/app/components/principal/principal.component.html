@@ -1,1 +1,10 @@
-<p>principal works!</p>
+<app-tarjeta 
+    [titulo]="miTarjeta1.titulo" 
+    [contenido]="miTarjeta1.contenido" 
+    [boton]="miTarjeta1.boton"
+    (myVarOutput)="eventoRecibido($event)"></app-tarjeta>
+<app-tarjeta 
+    [titulo]="miTarjeta2.titulo" 
+    [contenido]="miTarjeta2.contenido" 
+    [boton]="miTarjeta2.boton"
+    (myVarOutput)="eventoRecibido($event)"></app-tarjeta>
