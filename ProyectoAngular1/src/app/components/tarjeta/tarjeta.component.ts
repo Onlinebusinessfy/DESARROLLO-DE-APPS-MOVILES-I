@@ -29,7 +29,9 @@ export class TarjetaComponent implements OnInit {
 
   seleccionarTarjeta() {
     this.contador += 1;
+
+    console.log("El contador en el hijo es:", this.contador);
+
     this.myVarOutput.emit(this.contador);
-    console.log("Presionaste sobre la tarjeta");
   }
 }

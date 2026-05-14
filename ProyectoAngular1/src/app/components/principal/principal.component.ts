@@ -30,6 +30,6 @@ export class PrincipalComponent implements OnInit {
   }
 
   eventoRecibido(event: number) {
-    console.log("El valor recibido es: " + event);
+    console.log(`El valor recibido del evento es: ${event}`);
   }
 }
