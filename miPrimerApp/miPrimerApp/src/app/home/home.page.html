@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Mi tarjeta
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <strong>Samuel Dominguez Lopez</strong>
+  </div>
+
+  <ion-card>
+  <ion-card-header>
+    <ion-card-title>Primera Tarjeta</ion-card-title>
+    <ion-card-subtitle>Esta es la primera prueba de que la tarjeta funciona</ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content>
+    Esta es la primera tarjeta que se muestra en la aplicación, se ha creado para probar el funcionamiento de las tarjetas en Ionic.
+  </ion-card-content>
+  <ion-button (click)="saludar()">Saludar</ion-button>
+
+</ion-card>
+</ion-content>
